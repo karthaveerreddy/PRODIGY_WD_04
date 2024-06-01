@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K's Personal project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8ecb32d8a5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+   <div class="container">
+    <nav>
+        <img src="kletter.png" alt="logo" id="sidemenu">
+        <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+    <p>Web Dev Project</p>
+    <h1>Hey There,<span>Welcome to</span><br>K's Website</h1>  
+    </div>
+   </div>
+   </div> 
+   <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+        <img src="userimg.png">
+        </div>
+        <div class="about-col-1">
+            <h1 class="sub-title">About K</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod, nunc vel laoreet suscipit, libero erat interdum felis, eget aliquet dolor sapien at velit. Sed nec venenatis nisl. Cras venenatis sem eu justo tempor, sed aliquam nulla dictum. Donec sagittis eros non magna tincidunt gravida. Nulla ac purus in ipsum tincidunt finibus non ut leo. Vivamus id ipsum vel elit venenatis accumsan. Praesent id risus vitae leo convallis aliquam. Cras cursus turpis sit amet ante dapibus, ac fermentum nisl auctor. Duis at scelerisque odio. Cras volutpat, mi sit amet fermentum posuere, sapien arcu fringilla orci, id aliquet elit elit nec lacus. Aenean quis vestibulum libero, id efficitur ex. Nunc sed vehicula metus.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Programming Languages</span><br>C, C++, Python</li>
+                    <li><span>Framework Dev</span><br>Open CV, Flask</li> 
+                    <li><span>Front End WebDev</span><br>HTML, CSS, JAVASCRIPT</li>
+                    <li><span>CodeShare and Version Control</span><br>GitHub</li>      
+                    <li><span>Softwares</span><br>VS Code, MSOffice, Jupyter, Codeblock, Android Studio</li> 
+                    <li><span>UI/UX Design</span><br>Application Interface Development</li>  
+                    <li><span>Web development </span><br>Website Design</li>
+                    <li><span>Cloud Platforms </span><br>AWS Lambda, Google GCP, Microsoft Azure</li>
+                    <li><span>Content Creation </span><br>DaVinci Resolve, Adobe Premier Pro</li>
+                    <li><span>Data Manipulation</span><br>MySQL, Apashe HBase, OracleSQL</li>   
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>Projects</span><br>App Development, Website Design, Data Analysis</li> 
+                    <li><span>Internships</span><br>Data Analytics, Web Development, Full Stack Development</li> 
+                    <li><span>Research</span><br>Cloud and IoT Applications</li> 
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>Bachelors of engineering</span><br>X University<br>Y Course</li> 
+                    <li><span>Intermediate Education</span><br>Z Intermediate College<br> JKL Stream</li> 
+                    <li><span>Higher Secondary Education</span><br>PQR School<br> M Percentage</li> 
+                    <li><span>Primary Education</span><br>PQR School<br> N Percentage</li> 
+                </ul>
+            </div>
+        </div>
+      </div>  
+    </div>
+   </div>
+   <div id="skills">
+    <div class="container">
+     <h1 class="sub-title">K's Expertise</h1> 
+     <div class="skills-list">
+       <div>
+        <i class="fa-solid fa-cloud"></i>
+        <h2>Cloud Computing</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae expedita nemo earum perferendis rem repellendus voluptas iste! Voluptatum, aliquam possimus! Harum quos similique dignissimos perspiciatis? Ullam, facilis commodi accusantium tenetur iste sed repudiandae voluptate?
+        </p>
+        <a href="#">Learn more</a>
+       </div> 
+       <div>
+        <i class="fa-solid fa-wifi"></i>
+        <h2>IoT Operations</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae expedita nemo earum perferendis rem repellendus voluptas iste! Voluptatum, aliquam possimus! Harum quos similique dignissimos perspiciatis? Ullam, facilis commodi accusantium tenetur iste sed repudiandae voluptate?
+        </p>
+        <a href="#">Learn more</a>
+       </div>
+       <div>
+        <i class="fa-solid fa-network-wired"></i>
+        <h2>Embedded System Design</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae expedita nemo earum perferendis rem repellendus voluptas iste! Voluptatum, aliquam possimus! Harum quos similique dignissimos perspiciatis? Ullam, facilis commodi accusantium tenetur iste sed repudiandae voluptate?
+        </p>
+        <a href="#">Learn more</a>
+       </div>  
+     </div>  
+    </div>
+   </div>
+   <div id="projects">
+    <div class="container">
+        <h1 class="sub-title">K's Projects</h1>
+        <div class="work-list">
+        <div class="work">
+            <img src="images/arduinoimg.jpg">
+            <div class="layer">
+                <h3>Arduino IoT Hub</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ea praesentium nulla nesciunt qui ad.</p>
+                <a href="#"><i class="fa-solid fa-circle-info"></i></a>
+            </div>
+          </div> 
+          <div class="work">
+            <img src="images/cdaimg.jpg">
+            <div class="layer">
+                <h3>Cloud Data Analytics</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ea praesentium nulla nesciunt qui ad.</p>
+                <a href="#"><i class="fa-solid fa-circle-info"></i></a>
+            </div>
+          </div> 
+          <div class="work">
+            <img src="images/rpiimg.jpg">
+            <div class="layer">
+                <h3>RaspBerry Pi SensorNodes</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ea praesentium nulla nesciunt qui ad.</p>
+                <a href="#"><i class="fa-solid fa-circle-info"></i></a>
+            </div>
+          </div>  
+        </div> 
+<a href="#" class="btn">Return</a>
+    </div>
+   </div>
+   <div id="contact">
+    <div class="container">
+     <div class="row">
+     <div class="contact-left">
+       <h1 class="sub-title"> Contact</h1>
+       <p><i class="fa-solid fa-paper-plane"></i> xyz@gmail.com</p>
+       <p><i class="fa-sharp fa-solid fa-phone"></i> 6xxxxxxxx3</p>
+       <div class="Social-icons">
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/"><i class="fa-brands fa-github"></i>
+        </a>
+       </div>
+       <a href="images/KCV.pdf" Download class="btn btn2">Get Resume</a>
+    </div>
+     <div class="contact-right">
+        <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg">
+        </span>
+     </div>   
+     </div>
+     <div class="closing">
+        <p> Website designed by K For Prodigy InfoTech <i class="fa-solid fa-fire"></i></i> </p>
+     </div>   
+    </div>
+   </div>
+   <script>
+    
+
+    var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+       
+
+    
+   </script>
+   <script>
+    var sidemenu=docunent.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+
+    }
+    function openmenu(){
+        sidemenu.style.right="-200px";
+    }
+   </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzLU-E2S_ui-bi4Ut4Y3wCRzgaDTELzPV_YyETVvlvv54Kbj4jJlHjLC662CpDY9AtSbg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{ msg.innerHTML="Message Transferred"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+    })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
+
+
+
+
